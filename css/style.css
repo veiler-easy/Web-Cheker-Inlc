@@ -1,0 +1,113 @@
+header, .navbar {
+    background-color: #5fc772 !important;
+    color: white;
+}
+
+.main {
+    background: url('../img/bg.jpg') no-repeat;
+   
+    height: 86vh;
+    moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
+
+ .nav-link {
+    color: white !important;;
+}
+
+.nav-link:hover{
+    color: black !important;;
+}
+
+#query {
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+#query #querybox {
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    min-height: 10px;
+}
+
+#query #url {
+    margin: 0;
+    padding: 8px 15px 8px 15px;
+    font-size: 14px;
+    height: 50px;
+    color: #6d6d6d;
+    font-size: 18px;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+
+#query #loading {
+    color: #CCC;
+    display: none;
+    position: absolute;
+    z-index: 200;
+    right: 10px;
+    top: 10px;
+}
+
+#query .col-submit {
+    padding: 0;
+}
+
+#query #submit {
+    float: right;
+    width: 100%;
+    margin: 4px 0;
+    font-size: 18px;
+    height: 45px;
+    background: #5fc772;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0px 0px 10px #46be5c;
+    -moz-box-shadow: inset 0px 0px 10px #46be5c;
+    box-shadow: inset 0px 0px 10px #46be5c;
+    border: none;
+    color: #FFF;
+}
+
+
+
+#query #querybox {
+    margin: 16% auto;
+    border-radius: 4px;
+    background: #FFF;
+    min-height: 10px;
+    width: 58%;
+}    
+
+.col-sm-4 {
+    -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+    max-width: 30.833333% !important;
+  }
+
+input:active, input:focus{
+border:none;
+}
+
+input {outline:none !important;}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+.check-file {
+    margin: 15% 39%;
+}
